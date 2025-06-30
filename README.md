@@ -48,7 +48,7 @@ ChatHive is a full-stack real-time chat application that supports both **text** 
   <img src="https://your-image-url.com/screenshot2.png" width="400" alt="ChatHive Screenshot 2"/>
 </p>-->
 
----
+
 
 ## 📦 Installation & Setup
 
