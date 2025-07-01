@@ -1,65 +1,88 @@
 # 💬 ChatHive
 
-ChatHive is a full-stack real-time chat application that supports both **text** and **media messaging** (images/videos). It enables instant, secure, and responsive communication between users, powered by modern web technologies.
+**ChatHive** is a modern, responsive chat application that supports real-time communication through **text** and **media messages**. Designed with a clean UI and robust backend, ChatHive provides a seamless experience across devices.
+
+<!-- Uncomment below if cover image is available -->
+<!-- 
+<div align="center">
+  <img src="screenshots/cover.png" width="80%" alt="ChatHive Cover Screenshot" />
+</div> 
+-->
 
 ---
 
-## 🚀 Features
+## 🚀 Live Demo
 
-- 💬 Real-time messaging using WebSockets
-- 📎 Media sharing (images/videos) via Cloudinary
-- 🟢 Online/offline user presence tracking
-- 🔐 Secure authentication using JWT
-- 📱 Responsive UI with clean design
-- 👥 Support for multiple users
-- ⚡ Fast and scalable architecture
+👉 **Try ChatHive Now**: [Live Demo](https://chathive-frontend.onrender.com/)
 
 ---
 
 ## 🛠️ Tech Stack
 
-### Frontend
-- [React.js](https://reactjs.org/)
-- [Tailwind CSS](https://tailwindcss.com/)
-- [Axios](https://axios-http.com/)
-- [Socket.io-client](https://socket.io/)
+### 🔹 Frontend
+- **React.js** – UI development
+- **Tailwind CSS** – Responsive and utility-first styling
+- **Socket.IO Client** – Real-time communication
+- **React Router** – Routing between pages
+- **React Icons** – Icons for UI enhancement
 
-### Backend
-- [Node.js](https://nodejs.org/)
-- [Express.js](https://expressjs.com/)
-- [MongoDB + Mongoose](https://mongoosejs.com/)
-- [Socket.io](https://socket.io/)
-- [Cloudinary](https://cloudinary.com/)
-- [JWT (jsonwebtoken)](https://jwt.io/)
-
----
-
-## 🖥️ Live Demo
-
-👉 [Live Demo](https://your-live-demo-url.com)
+### 🔹 Backend
+- **Node.js + Express.js** – RESTful API and server logic
+- **Socket.IO** – WebSockets for real-time messaging
+- **MongoDB + Mongoose** – Database for storing users, messages, and media
+- **JWT** – Authentication and session handling
+- **Cloudinary** – Media file hosting
 
 ---
 
-<!--## 📷 Screenshots-->
+## ✨ Features
 
-<!-- Optional: Replace with actual links -->
-<!--<p align="center">
-  <img src="https://your-image-url.com/screenshot1.png" width="400" alt="ChatHive Screenshot 1"/>
-  <img src="https://your-image-url.com/screenshot2.png" width="400" alt="ChatHive Screenshot 2"/>
-</p>-->
+- ✅ Real-time messaging using WebSockets
+- 🖼️ Send and receive media files (images, videos)
+- 📱 Fully responsive across devices (mobile, desktop)
+- 🔐 Secure login and registration using JWT
+- 🗂️ Organized chat messages and message timestamps
+
+---
+
+## 📸 Screenshots
+
+###  Sign Up Page
+<img src="SignUp Page.png" width="60%" alt="SignUp Page" />
+
+###  Profile Page
+<img src="Profile Page.png" width="60%" alt="Profile Page" />
+
+###  Chatting Page
+<img src="Chatting Page.png" width="60%" alt="Chatting Page" />
 
 
 
-## 📦 Installation & Setup
+<!-- ## 📁 Project Structure
+``` ChatHive/ ├── server/ │ ├── controllers/ │ ├── models/ │ ├── routes/ │ ├── config/ │ └── server.js ├── client/ │ ├── public/ │ ├── src/ │ │ ├── components/ │ │ ├── pages/ │ │ └── App.jsx ├── screenshots/ │ └── chatting-page.png └── README.md ``` -->
 
-### 🔧 Prerequisites
+---
 
-- Node.js and npm
-- MongoDB (local or Atlas)
-- Cloudinary account
+## 🔧 Setup Instructions
 
-### 📁 Clone the Repository
+### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/yourusername/ChatHive.git
+git clone https://github.com/your-username/ChatHive.git
 cd ChatHive
+```
+
+### 2. Setup Backend
+```bash
+cd server
+npm install
+npm run dev
+```
+### 3. Setup Frontend
+```bash
+cd client
+npm install
+npm run dev
+```
+```
+
