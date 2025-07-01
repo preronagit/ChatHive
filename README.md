@@ -24,7 +24,7 @@
 - **Tailwind CSS** – Responsive and utility-first styling
 - **Socket.IO Client** – Real-time communication
 - **React Router** – Routing between pages
-- **React Icons** – Icons for UI enhancement
+
 
 ### 🔹 Backend
 - **Node.js + Express.js** – RESTful API and server logic
@@ -84,5 +84,5 @@ cd client
 npm install
 npm run dev
 ```
-```
+
 
